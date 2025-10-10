@@ -82,3 +82,8 @@ Perpendicular distance from element's edge to incident point of refracted ray's 
 $d_{final}=d_7\tan(\angle r_2 - \theta_6) + r - d_5$
 
 With these calculations, you can find the appropriate pixel colour to shade onto your UI element based on it's position to mimic real refraction.
+
+# Usage
+1. Clone or download the repositry
+2. Navigate to `index.html`'s file directory and run `python -m http.server 8000`
+3. Go to `http://localhost:8000/index.html` on your browser to view the file
