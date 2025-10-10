@@ -13,7 +13,7 @@ One key UI element of Liquid Glass is the capsule like buttons, that are translu
 
 In real life, this capsule distortion is because of light bending when going through different mediums with different refractive indexes. In short, the further the distance from the center of the curved edges, the more inward the element refracts light.
 
-We can mimic this efficiently by prioritising GPU over CPU, and calculating pixel colours on the UI element itself. If you look closely at the UI elements in regular iOS apps, you can see that the distortion is not smooth and clean, but instead tiny visible pixels that are obviously separated, showing that Apple also used a similar ray tracing algorithm to create this wonderful effect so seamlessly at first glance while being resource efficient in terms of processing power.
+We can mimic this efficiently by calculating pixel colours on the UI element itself. If you look closely at the UI elements in regular iOS apps, you can see that the distortion is not smooth and clean, but instead tiny visible pixels that are obviously separated, showing that Apple also used a similar ray tracing algorithm to create this wonderful effect so seamlessly at first glance while being resource efficient in terms of processing power.
 
 ## Calculating pixel distance
 
@@ -24,14 +24,15 @@ $n_1 \sin \theta_1 = n_2 \sin \theta_2$
 Do take note that trigonometric functions used here are in degrees, not in radians nor gradians.
 
 ### Inputs
-$d:   $ Perpendicular distance from element edge to ray incident point \
-$r:   $ Radius of edge \
-$d_6: $ Perpendicular distance from element bottom to ground \
-$n_1: $ Refractive index of surroundings (air = 1.0) \
-$n_2: $ Refractive index of element material (glass = 1.5)
+
+$d$: Perpendicular distance from element edge to ray incident point \
+$r$: Radius of edge \
+$d_6$: Perpendicular distance from element bottom to ground \
+$n_1$: Refractive index of surroundings (air = 1.0) \
+$n_2$: Refractive index of element material (glass = 1.5)
 
 ### Outputs
-$d_{final}: $ Perpendicular distance from ray incident point on the ground to element edge
+$d_{final}$: Perpendicular distance from ray incident point on the ground to element edge
 
 
 ### Procedure
