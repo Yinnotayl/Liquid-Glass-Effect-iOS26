@@ -87,3 +87,5 @@ With these calculations, you can find the appropriate pixel colour to shade onto
 1. Clone or download the repositry
 2. Navigate to `index.html`'s file directory and run `python -m http.server 8000`
 3. Go to `http://localhost:8000/index.html` on your browser to view the file
+
+Crafted neatly with the knowledge my science teacher taught me >w<
