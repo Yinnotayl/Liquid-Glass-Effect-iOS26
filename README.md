@@ -73,6 +73,9 @@ $d_5=\left| -d_3 + (d_3 \cos\theta_5 + \sqrt{r^2-(d_3)^2\sin\theta_5})\cos\theta
 Angle between incident point of refracted ray on bottom arc of element to centre and horizontal radius \
 $\theta_4=\arctan(\frac{d_4}{d_5})$
 
+Angle between horizontal edge of the bottom suface of the element and the refraction edge of the light ray \
+$\theta_6=90^\circ - \theta_4$
+
 Second angle of incidence of refracted ray \
 $\angle i_2 = 180^\circ - \theta_4 - \theta_5$
 
