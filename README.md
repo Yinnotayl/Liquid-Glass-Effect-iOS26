@@ -6,7 +6,7 @@ A HTML example of the new Liquid Glass effect brought by iOS 26
 ## Introduction
 Liquid Glass is part of the iOS 26 update developed by Apple, and it introduces many features, with the main theme being glass-like UI elements that reflect, refract and distort light like how glass distorts light in real life.
 
-| Distortion 1 | Distortion 1 |
+| Distortion 1 | Distortion 2 |
 |--------|---------|
 | ![Image1](images/demoImage1.png) | ![Image2](images/demoImage2.png) |
 
